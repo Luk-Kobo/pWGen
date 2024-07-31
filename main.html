@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/style/main.css">
-</head>
-<body>
-  <h1>PassWGen</h1>
-  <div id="data&input">
-    <button onclick="takeinput()">Generate</button>
-    <div>
-      <input type="text" id="userInput" placeholder="Type something">
-      <div id="Display">aaaa</div>
-      <button class="Copy">1</button>
-      <button class="Refresh">2</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PassWGen</title>
+    <link rel="stylesheet" href="/style/main.css" />
+    <script src="/function/function.js"></script>
+    <noscript>
+      <p>JavaScript is required to use this. Please enable JavaScript in your browser settings.</p>
+  </noscript>
+  </head>
+  <body>
+    <div class="LogoContainer">
+      <h1 class="Logo">PassWGen</h1>
     </div>
-  </div>
-  <div id="options">
 
-  </div>
+    <div class="InputContainer"></div>
 
-</body>
+    <div class="IconContainer">
+      <div class="IconAndText">
+        <img src="/Image/lock.svg" alt="" />
+        <p class="IconText">Guaranted security</p>
+      </div>
+      <div class="IconAndText">
+        <img src="/Image/peace.svg" alt="" />
+        <p class="IconText">Privacy friendly</p>
+      </div>
+      <div class="IconAndText">
+        <img src="/Image/track.svg" alt="" />
+        <p class="IconText">No data tracking</p>
+      </div>
+    </div>
+
+    <div class="OptionsContainer">
+      <div class="ButtonBox1">
+        <div class="OptionBox">
+          <p class="OptionText">Uppercases (A-Z)</p>
+          <input type="checkbox" id="UppercaseBox" />
+          <label for="UppercaseBox"></label>
+        </div>
+        <div class="OptionBox">
+          <p class="OptionText">Lowercases (a-z)</p>
+          <input type="checkbox" id="LowercaseBox" />
+          <label for="LowercaseBox"></label>
+        </div>
+      </div>
+      <div class="ButtonBox2">
+        <div class="OptionBox">
+          <p class="OptionText">Numbers (0-9)</p>
+          <input type="checkbox" id="NumbersBox" />
+          <label for="NumbersBox"></label>
+        </div>
+        <div class="OptionBox">
+          <p class="OptionText">Symbols (!@?%$)</p>
+          <input type="checkbox" id="SymbolBox" />
+          <label for="SymbolBox"></label>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
