@@ -7,15 +7,59 @@
     <link rel="stylesheet" href="/style/main.css" />
     <script src="/function/function.js"></script>
     <noscript>
-      <p>JavaScript is required to use this. Please enable JavaScript in your browser settings.</p>
-  </noscript>
+      <p>
+        JavaScript is required to use this. Please enable JavaScript in your
+        browser settings.
+      </p>
+    </noscript>
   </head>
   <body>
     <div class="LogoContainer">
       <h1 class="Logo">PassWGen</h1>
     </div>
 
-    <div class="InputContainer"></div>
+    <div class="InputContainer">
+      <div class="button-wrapper">
+        <button
+          id="generateButton"
+          class="generate-button"
+          onclick="generatePassword()"
+          title="Generate Password"
+        >
+          Generate
+        </button>
+      </div>
+
+      <div class="input-output-wrapper">
+        <input
+          type="text"
+          class="inputText"
+          id="inputText"
+          placeholder="Enter base word here"
+          aria-label="Base word input"
+        />
+
+        <div id="outputText" class="output"></div>
+
+        <button
+          id="copyButton"
+          class="icon-button"
+          onclick="copyToClipboard()"
+          title="Copy to Clipboard"
+        >
+          <img src="/Image/copy.svg" />
+        </button>
+
+        <button
+          id="reloadButton"
+          class="icon-button"
+          onclick="redoPassword()"
+          title="Reload Password"
+        >
+          <img src="/Image/reload.svg" />
+        </button>
+      </div>
+    </div>
 
     <div class="IconContainer">
       <div class="IconAndText">
