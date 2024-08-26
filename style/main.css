@@ -62,9 +62,9 @@ body {
 }
 
 .inputText {
-  background-color: #646464; 
-  color: #ffffff; 
-  font-size: 1rem; 
+  background-color: #646464;
+  color: #ffffff;
+  font-size: 1rem;
   border-radius: 5px;
   text-align: left;
   width: 100%;
@@ -75,20 +75,20 @@ body {
 
 input {
   border: none;
-  background: none; 
-  color: inherit; 
-  padding: 0; 
-  margin: 0; 
-  outline: none; 
-  box-shadow: none; 
-  font: inherit; 
-  text-align: inherit; 
+  background: none;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+  font: inherit;
+  text-align: inherit;
 }
 
 .output {
   background-color: #646464;
-  color: #ffffff; 
-  font-size: 1rem; 
+  color: #ffffff;
+  font-size: 1rem;
   border-radius: 5px;
   text-align: left;
   box-sizing: border-box;
@@ -114,9 +114,9 @@ input[type="reset"] {
   width: 3rem;
   height: 3rem;
   box-sizing: border-box;
-  background-color: #333333; 
+  background-color: #333333;
   border-radius: 5px;
-  border: 2px solid #ffffff; 
+  border: 2px solid #ffffff;
 }
 
 .IconContainer {
